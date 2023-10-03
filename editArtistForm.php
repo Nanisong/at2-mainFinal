@@ -58,8 +58,8 @@
         //unset($_SESSION[$editFormSessionId]);
         $showArtistModal = true;
         //Go back to Artist page
-        // header("location: /at2-main/artist.php");
-        // exit;
+        header("location: /at2-main/artist.php");
+        exit;
     }
     //insert action here
     if(isset($_POST['submitartist']) && $currentArtist[0]== '-1') {

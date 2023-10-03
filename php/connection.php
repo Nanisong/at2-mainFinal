@@ -114,7 +114,7 @@ class connection{
        return $a;
     }
 
-    public function getWholeGalleryWithArtist($tbName1 = 'paint',$tbName2 = 'portrait',){
+    public function getWholeGalleryWithArtist($tbName1 = 'paint',$tbName2 = 'portrait'){
 
         $stmt = $this->connection->prepare(
             "SELECT id,name,year,media,artist_id,artist,nationality,birth,passing,ptrimg,ptrthn,style,img,tn FROM $tbName1 

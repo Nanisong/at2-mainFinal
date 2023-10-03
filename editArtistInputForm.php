@@ -35,7 +35,6 @@
                 <div class="row row-cols-1 row-cols-md-4 g-4">
                     <div class="col">
                     <label>  Born : <input id ='aborn' class="col-md-3 form-control " name="born" type="text" value='' required></label>
-                    <br>
                     <div class="col">
                     <label>  Passing : <input id ='apassing' class="col-md-3 form-control " name="passing" type="text" value='' required></label>
                 </div>
