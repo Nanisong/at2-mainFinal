@@ -8,7 +8,15 @@
 		<link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		
 		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	   	
+		<script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+
+        // Replace the placeholder with the current year
+        $(document).ready(function() {
+            $('#copyright').html(`Copyright &copy; ${currentYear} SMTAFE`);
+        });
+    </script>
 	</head>
 
 	<body>
@@ -31,7 +39,8 @@
 		</div>
 		<div class="row">
 			<div class="col-6 text-center align-items-end d-flex flex-grow-1 justify-content-center" style="color:#C0C0C0">
-			<h4 class="fw-bold">Name: Sumida Jun, Yu Lu, Lan Song  
+			<h4 class="fw-bold">
+				<!-- Name: Sumida Jun, Yu Lu, Lan Song-->
 				<br> Phone: 08 8288 8388
 				<br>Email: acmearts@tafe.wa.au<br><br><br></h4>
 			</div>
@@ -49,7 +58,7 @@
 		    <footer>
 		        <div class="row">
 		            <div class="col-md-6 text-white text-left">
-		                <p>Copyright &copy; 2023 SMTAFE</p>
+										<p id="copyright">Copyright &copy; </p>
 		            </div>
 		        </div>
 		    </footer>
