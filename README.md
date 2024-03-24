@@ -1,5 +1,5 @@
 # Description
-The multi-page client-server website utilizes a **JavaScript** frontend framework for navigation and display of information from the **SQL database server**. The project incorporates **PHP** for server-side scripting and **HTML** for structuring the web pages.
+The multi-page client-server website utilizes a **JavaScript** frontend framework for navigation and display of information from the **SQL database server**, also incorporates **PHP** and **HTML**.
 
 ## Screenshots
 
